@@ -19,12 +19,12 @@ var filteredProducts2 = products.filter(function(product) {
                         });
 
 // filter array values where type is equal to vegetable, quantity is more than 0 and price is less than 10
-var filteredProducts3 = products.filter(function(product) {
+var filteredProducts3 = products.filter(product => {
                             return product.type === 'vegetable'
                                    && product.quantity > 0
                                    && product.price < 10;
                         });
 
-// filteredProducts3
+//filteredProducts3
 
 
